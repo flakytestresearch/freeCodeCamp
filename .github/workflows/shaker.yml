@@ -26,6 +26,6 @@ jobs:
         uses: sorattorafa/shaker-js@main
         with:
           tool: jest
-          tests_command: yarn build && yarn test:source
+          tests_command: "yarn build && yarn test:source"
           runs: 1
           output_folder: freeCodeCamp/output
